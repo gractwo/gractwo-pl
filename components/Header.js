@@ -14,6 +14,9 @@ export default function Home() {
 			<Link href="/">
 				<a>Sztab</a>
 			</Link>
+			<Link href="/">
+				<a>Zaloguj się</a>
+			</Link>
 		</nav>
 	);
 }

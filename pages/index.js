@@ -10,7 +10,7 @@ export default function Home() {
 					margin: 1rem;
 				}
 				p {
-					border-left: 0.2rem solid black;
+					border-left: 0.2rem solid white;
 					padding-left: 1rem;
 				}
 			`}</style>
