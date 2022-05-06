@@ -19,7 +19,7 @@ export default function Home() {
 				Tutaj powstaje Gractwo experience godny Twoich oczu. <br /> Zakładając,
 				że zaraz nie dostanę od Ciebie - drogi internauto - wiadomości, że żaden
 				taki nie jest. <br />
-				I'm onto you. <br />
+				I&apos;m onto you. <br />
 				<br />~ jamesen
 			</p>
 		</>
