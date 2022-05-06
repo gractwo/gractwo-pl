@@ -1,9 +1,11 @@
 import Header from "../components/Header.js";
+import Banner from "../components/Banner.js";
 
 export default function Home() {
 	return (
 		<>
 			<Header />
+			<Banner />
 			<style jsx>{`
 				h1,
 				p {

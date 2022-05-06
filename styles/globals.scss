@@ -22,6 +22,7 @@ nav.main {
 	display: flex;
 	align-items: center;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+	position: relative;
 	a {
 		display: block;
 		padding: 0 1.5rem;
@@ -57,5 +58,31 @@ nav.main {
 		--size: 4rem;
 		width: var(--size);
 		height: var(--size);
+	}
+}
+
+section.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 28rem;
+	h1,
+	p {
+		position: fixed;
+		text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+	}
+	h1 {
+		font-size: 3.5rem;
+	}
+	p {
+		margin-top: 6rem;
+	}
+	div {
+		// filter: blur(0.2rem);
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-color: var(--black0);
 	}
 }
