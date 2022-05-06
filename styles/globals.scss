@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap");
+:root {
+	--black0: #121212;
+	--black1: #1a1a1a;
+	--black2: #2c2c2c;
+	--accent: #61f2ea;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+nav.main {
+	height: 6rem;
+	background-color: var(--black1);
+	display: flex;
+	align-items: center;
+	a {
+		display: block;
+		padding: 0.5rem 1.5rem;
+		margin: 0 0.5rem;
+		color: white;
+		text-decoration: none;
+		font-family: "Lexend", sans-serif;
+		font-size: 24px;
+	}
+	.logo {
+		margin: 0 1rem 0 2.3rem;
+		--size: 6rem;
+		width: var(--size);
+		height: var(--size);
+	}
+}

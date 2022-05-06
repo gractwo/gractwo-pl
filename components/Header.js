@@ -1,3 +1,19 @@
+import Link from "next/link";
+import { GractwoLogo } from "./GractwoLogo";
+
 export default function Home() {
-	return <></>;
+	return (
+		<nav className="main">
+			<GractwoLogo className="logo" />
+			<Link href="/">
+				<a>Główna</a>
+			</Link>
+			<Link href="/">
+				<a>Rankingi</a>
+			</Link>
+			<Link href="/">
+				<a>Sztab</a>
+			</Link>
+		</nav>
+	);
 }
