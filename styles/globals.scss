@@ -13,7 +13,7 @@
 }
 
 nav.main {
-	height: 6rem;
+	height: 4rem;
 	background-color: var(--black1);
 	display: flex;
 	align-items: center;
@@ -24,11 +24,11 @@ nav.main {
 		color: white;
 		text-decoration: none;
 		font-family: "Lexend", sans-serif;
-		font-size: 24px;
+		// font-size: 16px;
 	}
 	.logo {
-		margin: 0 1rem 0 2.3rem;
-		--size: 6rem;
+		margin: 0 1rem 0 1rem;
+		--size: 4rem;
 		width: var(--size);
 		height: var(--size);
 	}
