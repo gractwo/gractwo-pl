@@ -8,13 +8,13 @@ export default function Home() {
 			<Link href="/">
 				<a>Główna</a>
 			</Link>
-			<Link href="/">
+			<Link href="">
 				<a>Rankingi</a>
 			</Link>
-			<Link href="/">
-				<a>Sztab</a>
+			<Link href="/o-gractwie">
+				<a>O Gractwie</a>
 			</Link>
-			<Link href="/">
+			<Link href="">
 				<a>Zaloguj się</a>
 			</Link>
 		</nav>
