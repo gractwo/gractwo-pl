@@ -3,7 +3,7 @@ export default function Banner() {
 		<>
 			<section className="banner">
 				<div />
-				<h1>Dzień dobry.</h1>
+				<h1>Remont strony</h1>
 				<p>Tutaj znajdzie się banner ze zdjęciem.</p>
 			</section>
 		</>

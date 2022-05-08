@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap");
 :root {
 	--black0: #121212;
 	--black1: #1a1a1a;
 	--black2: #2c2c2c;
+	--black3: #1d1d1d;
 	--accent: #61f2ea;
 }
 * {
@@ -24,15 +24,14 @@ nav.main {
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 	position: relative;
 	a {
+		font-family: "Lexend", sans-serif;
 		display: block;
-		padding: 0 1.5rem;
+		padding: 0 2rem;
 		display: flex;
 		align-items: center;
 		height: 100%;
-		margin: 0 0.5rem;
 		color: white;
 		text-decoration: none;
-		font-family: "Lexend", sans-serif;
 		transition-duration: 150ms;
 		// font-size: 16px;
 		&:hover {
@@ -66,10 +65,10 @@ section.banner {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 28rem;
+	height: 25rem;
 	h1,
 	p {
-		position: fixed;
+		position: absolute;
 		text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 	}
 	h1 {
@@ -84,5 +83,82 @@ section.banner {
 		height: 100%;
 		background-size: cover;
 		background-color: var(--black0);
+	}
+}
+article.main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	.Map {
+		margin-top: 2rem;
+		display: grid;
+		grid-gap: 2rem;
+		grid-template-rows: repeat(2, 10rem);
+		grid-template-columns: repeat(7, 10rem);
+		div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: var(--black3);
+			border-radius: 10px;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+			overflow: hidden;
+			position: relative;
+			h1 {
+				font-family: "Lexend", sans-serif;
+				font-size: 4.5rem;
+			}
+			p {
+				font-family: "Lexend", sans-serif;
+				font-size: 1.6rem;
+			}
+			.icons {
+				margin-bottom: 4rem;
+				margin-left: 11rem;
+				transform: rotate(195deg);
+				width: 15rem;
+				height: 15rem;
+				opacity: 5%;
+				position: absolute;
+				color: white;
+			}
+		}
+		.msg {
+			grid-column: 1/3;
+			grid-row: 1;
+		}
+		.bots {
+			grid-column: 3/6;
+			grid-row: 1;
+		}
+		.discord {
+			grid-column: 6;
+			grid-row: 1;
+		}
+		.twitter {
+			grid-column: 7;
+			grid-row: 1;
+		}
+		.members {
+			grid-column: 1/3;
+			grid-row: 2;
+		}
+		.days {
+			grid-column: 3/5;
+			grid-row: 2;
+		}
+		.yt {
+			grid-column: 5;
+			grid-row: 2;
+		}
+		.github {
+			grid-column: 6;
+			grid-row: 2;
+		}
+		.minecraft {
+			grid-column: 7;
+			grid-row: 2;
+		}
 	}
 }

@@ -7,6 +7,12 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<link rel="shortcut icon" href="/gractwo.svg" />
 				<title>Gractwo</title>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap"
+					rel="stylesheet"
+				></link>
 			</Head>
 			<Component {...pageProps} />
 		</>
