@@ -41,6 +41,9 @@ nav.main {
 			outline: none;
 			background-color: var(--black0);
 		}
+		&:first-of-type {
+			display: none;
+		}
 		&:last-of-type {
 			background-color: #c0c0c0;
 			color: var(--black1);
@@ -160,5 +163,18 @@ article.main {
 			grid-column: 7;
 			grid-row: 2;
 		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	nav.main > a {
+		display: none;
+		&:first-of-type,
+		&:last-of-type {
+			display: flex;
+		}
+	}
+	nav.main > svg {
+		display: none;
 	}
 }

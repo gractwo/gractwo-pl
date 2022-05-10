@@ -5,18 +5,11 @@ export default function Home() {
 	return (
 		<nav className="main">
 			<GractwoLogo className="logo" />
-			<Link href="/">
-				<a>Główna</a>
-			</Link>
-			<Link href="">
-				<a>Rankingi</a>
-			</Link>
-			<Link href="/o-gractwie">
-				<a>O Gractwie</a>
-			</Link>
-			<Link href="">
-				<a>Zaloguj się</a>
-			</Link>
+			<Link href="">&#187;</Link> {/* only this & lastel shows on mobile */}
+			<Link href="/">Główna</Link>
+			<Link href="">Rankingi</Link>
+			<Link href="/o-gractwie">O Gractwie</Link>
+			<Link href="">Zaloguj się</Link>
 		</nav>
 	);
 }
