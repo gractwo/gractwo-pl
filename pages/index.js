@@ -18,39 +18,42 @@ export default function Home() {
 			<Banner />
 			<article className="main">
 				<div className="Map">
-					<div className="msg">
+					<a className="msg">
 						<h1>99,9k</h1>
 						<p>Wysłane wiadomości</p>
 						<PaperPlane className="icons" />
-					</div>
-					<div className="bots">
+					</a>
+					<a className="bots">
 						<p>Status botów</p>
-					</div>
-					<div className="discord">
+					</a>
+					<a className="discord" href="https://discord.gg/NsR94evcPC">
 						<DiscordIcon className="icons" />
-					</div>
-					<div className="twitter">
+					</a>
+					<a className="twitter" href="https://twitter.com/gractwo">
 						<TwitterIcon className="icons" />
-					</div>
-					<div className="members">
+					</a>
+					<a className="members">
 						<h1>196</h1>
 						<p>Członków</p>
 						<MemberIcon className="icons" />
-					</div>
-					<div className="days">
+					</a>
+					<a className="days">
 						<h1>697 dni</h1>
 						<p>Istnienia Gractwa</p>
 						<CalendarIcon className="icons" />
-					</div>
-					<div className="yt">
+					</a>
+					<a
+						className="yt"
+						href="https://www.youtube.com/channel/UCM5O0ltiO_ZigZiP-Wa28Ew"
+					>
 						<YtIcon className="icons" />
-					</div>
-					<div className="github">
+					</a>
+					<a className="github" href="https://github.com/Gractwo">
 						<GithubIcon className="icons" />
-					</div>
-					<div className="minecraft">
+					</a>
+					<a className="minecraft">
 						<PaperPlane className="icons" />
-					</div>
+					</a>
 				</div>
 			</article>
 		</>
