@@ -106,7 +106,7 @@ article.main {
 		grid-gap: 2rem;
 		grid-template-rows: repeat(2, 10rem);
 		grid-template-columns: repeat(7, 11rem);
-		div {
+		a {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -125,7 +125,7 @@ article.main {
 				font-size: 1.6rem;
 			}
 		}
-		div:hover {
+		a:hover {
 			background-color: var(--black0);
 			box-shadow: 7 px 21px rgba(0, 0, 0, 0.25);
 		}
