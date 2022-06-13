@@ -9,8 +9,6 @@ import {
 	MemberIcon,
 	CalendarIcon,
 } from "../assets/Icons.js";
-import { Line } from "react-chartjs-2";
-import { Chart as ChartJS } from "chart.js/auto";
 export default function Home() {
 	return (
 		<>
@@ -38,7 +36,12 @@ export default function Home() {
 						<MemberIcon className="icons" />
 					</a>
 					<a className="days">
-						<h1>697 dni</h1>
+						<h1>
+							{Math.floor(
+								(Date.now() - new Date("06.07.2020").getTime()) / 86400000
+							)}{" "}
+							dni
+						</h1>
 						<p>Istnienia Gractwa</p>
 						<CalendarIcon className="icons" />
 					</a>
