@@ -8,6 +8,7 @@ import {
 	TwitterIcon,
 	MemberIcon,
 	CalendarIcon,
+	WikiIcon,
 } from "../assets/Icons.js";
 export default function Home() {
 	return (
@@ -54,8 +55,8 @@ export default function Home() {
 					<a className="github" href="https://github.com/Gractwo">
 						<GithubIcon className="icons" />
 					</a>
-					<a className="minecraft">
-						<PaperPlane className="icons" />
+					<a className="wiki" href="https://gractwo.pl/wiki">
+						<WikiIcon className="icons" />
 					</a>
 				</div>
 			</article>
