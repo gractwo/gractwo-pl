@@ -18,4 +18,4 @@ jobs:
         run: |
           docker stop ${{ github.event.repository.name }} || true
           docker rm ${{ github.event.repository.name }} || true
-          docker run -d -e ${{ github.repository }} -p 3000:3000
+          docker run -d ${{ github.repository }} -p 3000:3000
