@@ -5,7 +5,6 @@ on:
     branches: ["master"]
   pull_request:
     branches: ["master"]
-  workflow_dispatch:
 
 jobs:
   build:
@@ -18,4 +17,4 @@ jobs:
         run: |
           docker stop ${{ github.event.repository.name }} || true
           docker rm ${{ github.event.repository.name }} || true
-          docker run -p 3000:3000 -d --name ${{ github.event.repository.name }} ${{ github.repository }}
+          docker run -p 127.0.0.1:3000:3000 -d --name ${{ github.event.repository.name }} ${{ github.repository }}
